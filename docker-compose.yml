@@ -2,7 +2,7 @@ version: '3'
 services:
   bmux:
     build: .
-    image: bmux
+    image: redmondb1/bmux
     shm_size: '2gb'
     stdin_open: true
     tty: true
